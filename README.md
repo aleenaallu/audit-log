@@ -38,10 +38,8 @@ This method retrieves all API calls made by the specified user.It queries the AP
 
 
 Architecture 
-Incoming Request        APILoggingMiddleware      Database 
 
-  
-
+Incoming Request                                 APILoggingMiddleware                    Database 
       |                                                   |                                 | 
 
       |                                                   |                                 | 
