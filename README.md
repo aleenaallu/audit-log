@@ -46,49 +46,49 @@ Incoming Request        APILoggingMiddleware      Database
 
       |                                                   |                                 | 
 
-      |    --- Process Request ------->|                                 | 
+      |<------------- Process Request ------------------->|                                 | 
 
       |                                                   |                                 | 
 
       |                                                   |                                 | 
 
-      |<--      Get Response -----------|                                 | 
+      |<--------------- Get Response ----------------------|                                  | 
 
       |                                                    |                                 | 
 
       |                                                    |                                 | 
 
-      |         --- Log API Call ---------->|                                 | 
+      |<---------------- Log API Call -------------------->|                                 | 
 
       |                                                    |                                 | 
 
-      |                                                    |--- Save API Call -    | 
+      |                                                    |--- ------Save API Call-----------| 
 
       |                                                    |                                  | 
 
       |                                                    |                                  | 
 
-      |       --- Retrieve API Calls ---->|                                  | 
+      |<-------------- Retrieve API Calls------------ ---->|                                  | 
 
       |                                                    |                                  | 
 
-      |                                                    |--- Query Database| 
+      |                                                    |---------- Query Database---------|
 
       |                                                    |                                  | 
 
-      | <-- API Calls           --------------|                                  | 
-
-      |                                                    |                                  | 
-
-      |                                                    |                                  | 
-
-      | ---    Process API Calls    ----->|                                  | 
+      | <--------------- API Calls-------------------------|                                  | 
 
       |                                                    |                                  | 
 
       |                                                    |                                  | 
 
-      |   --- Return Response ------->|                                  | 
+      | <-------------Process API Calls ------------------>|                                  | 
+
+      |                                                    |                                  | 
+
+      |                                                    |                                  | 
+
+      | <-------------- Return Response ------------------>|                                  | 
 
       |                                                   |                                  | 
 
